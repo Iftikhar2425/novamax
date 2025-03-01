@@ -30,7 +30,7 @@ def contact(request):
                     subject=f'Contact Form Submission from {name}',
                     message=f'Name: {name}\nPhone: {phone}\nEmail: {email}\nMessage: {message}',
                     from_email=settings.EMAIL_HOST_USER,  
-                    recipient_list=['Shujatali41@gmail.com'], 
+                    recipient_list=['iftikharalisyed001@gmail.com'], 
                 )
                 messages.success(request, 'Your message has been sent successfully!')
             except Exception as e:
